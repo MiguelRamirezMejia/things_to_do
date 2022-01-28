@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task scheduler</title>
+</head>
+<body>
+	<div class="cf container">
+        <h1>My to do list</h1>
+        <div class="cf creaList">
+          <h2>Agrega tareas</h2>
+          
+          <fieldset>
+            <label class="fecha" for="">Nueva Fecha</label>
+            <input id="agregaFecha" type="date" required min="2014-05-29">
+
+            <label class="nuevaTarea" for="txtTarea">Nueva Tarea</label>
+            <input id="agregaTarea" type="text" placeholder="Tarea" required>
+
+            <button id="btnGuardar" type="button">Guardar</button>
+          </fieldset>       
+        </div>
+        <div class="cf creaList">
+          <h2>Tareas agregadas</h2>
+          <ul id="ulPrincipal"></ul>
+        </div>
+      </div>
+      <script src="function.js"></script>	
+</body>
+</html>
