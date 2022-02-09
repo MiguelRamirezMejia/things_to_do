@@ -44,7 +44,7 @@
  h1{ background-color: #000000; color: #ffffff; font-weight: bold; font-size: 1.5em; margin: 0 auto; padding: 1em 30%; }
  h2{ background-color: #b2b2b2; color: #ffffff; font-weight: bold; font-size: 1.25em; margin: 0 auto; border-bottom:0.0625em solid #000000; }
  
- /** Boton Guardar **/
+ /** save button **/
  #btnGuardar, #btnLimpiar, #btnCrear, #patito {
  -moz-box-shadow:inset 0px 1px 0px 0px #c0c0fa;
  -webkit-box-shadow:inset 0px 1px 0px 0px #c0c0fa;
