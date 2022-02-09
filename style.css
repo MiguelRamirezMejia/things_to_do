@@ -78,7 +78,7 @@
  #btnGuardar:hover, #btnLimpiar:hover, #btnCrear:hover, #patito:hover { background-color:#6c6c6c; }
  #btnGuardar:active, #btnLimpiar:active, #btnCrear:active, #patito:active { position:relative; top:1px; }
  
- /** Contenedor principal **/
+ /** main container **/
  .container{ max-width:60.00em; margin:0 auto; background-color:#ffffff; }
  
  /** Contenedores secundarios **/
