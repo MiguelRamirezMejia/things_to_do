@@ -81,7 +81,7 @@
  /** main container **/
  .container{ max-width:60.00em; margin:0 auto; background-color:#ffffff; }
  
- /** Contenedores secundarios **/
+ /** second container **/
  .creaList{ width:50%; margin:0 auto; float: left; }
  
  h2{ display:block; padding: 1em 5%; }
